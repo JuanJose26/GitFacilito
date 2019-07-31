@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+}
+
+.nav {
+    background: transparent;
+    display: flex;
+    border: rgb(133, 125, 125) 1px solid;
+}
+/* __________________________________________________________*/
+
+.bar {
+    background: transparent;
+}
+
+.bar ul{
+    list-style: none;
+    margin: -0.6%;
+    padding: 4px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bar ul li{
+    padding: 17px;
+}
+
+.bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.bar ul li a:hover{
+    color: rgb(156, 150, 150);
+}
+
+/* __________________________________________________________*/
+
+.bar1{
+    background:transparent;
+    width: 100%;
+    float: right;
+    text-align: right;
+    
+}
+
+.bar1 ul{
+    list-style: none;
+}
+
+.bar1 ul li{
+    display: inline;
+    padding: 7px;
+}
+
+.bar1 ul li a img{
+    color: #fff;
+    text-decoration: none;
+    width: 30px;
+}
+
+.bar1 ul li a img:hover{
+    color: rgb(156, 150, 150);
+}
+
+/* __________________________________________________________*/
+
+body {
+    background-image: url(../imagenes/Fondo_Iniciar_Sesion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0%;
+}
+
+.body a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.body a:hover{
+    color: rgb(156, 150, 150); 
+
+}
+
+/* __________________________________________________________*/
+
+input{
+    background: transparent;
+    align-content: center;
+    color: #fff;
+}
+
+/* __________________________________________________________*/
+/*
+Height = Es para determinar el espacio que ocupa en la pagina
+Background = Es para determinar el color, la imagen del fondo de un elemento
+Display = 
+Border = Es para determinar cualidades del borde(Color, tamaño, estilo)
+List-Style = Determina los indices de una lista (°, -, * )
+Margin = Determina el margen que ocupa un elemento
+Padding = Determina el alcance que ocupa un elemento
+*/
+/* __________________________________________________________*/
+
+
